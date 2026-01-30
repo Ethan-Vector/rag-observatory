@@ -1,0 +1,4 @@
+{"id":"pw_reset_1","route":"default","query":"How can I reset my password?","must_cite":["doc:passwords.md#chunk:0"],"should_answer":true}
+{"id":"pw_reset_2","route":"default","query":"Do reset links expire?","must_cite":["doc:passwords.md#chunk:1"],"should_answer":true}
+{"id":"access_1","route":"default","query":"What do I need to include in an access request?","must_cite":["doc:access.md#chunk:0"],"should_answer":true}
+{"id":"unknown_1","route":"default","query":"What is the company's maternity policy?","must_cite":[],"should_answer":false}

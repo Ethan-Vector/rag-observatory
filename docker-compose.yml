@@ -1,0 +1,12 @@
+services:
+  ragobs:
+    build: .
+    ports:
+      - "8090:8090"
+    env_file:
+      - .env
+    volumes:
+      - ./configs:/app/configs:ro
+      - ./data:/app/data:ro
+      - ./traces:/app/traces
+      - ./ragobs.sqlite:/app/ragobs.sqlite
