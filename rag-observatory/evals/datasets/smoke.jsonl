@@ -1,0 +1,4 @@
+{"query": "What is RAG?", "gold_doc_ids": ["000_rag_basics"], "expected_answer_contains": ["retrieve"]}
+{"query": "How should I choose chunk size?", "gold_doc_ids": ["001_chunking"], "expected_answer_contains": ["chunk"]}
+{"query": "Why run evals for RAG systems?", "gold_doc_ids": ["002_eval_loop"], "expected_answer_contains": ["eval"]}
+{"query": "What is a latency budget?", "gold_doc_ids": ["003_latency_budget"], "expected_answer_contains": ["latency"]}

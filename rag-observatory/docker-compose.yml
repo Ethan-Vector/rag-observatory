@@ -1,0 +1,7 @@
+services:
+  ragobs:
+    build: .
+    volumes:
+      - ./workspace:/app/workspace
+    environment:
+      - RAGOBS_TRACE_DIR=/app/workspace/traces
